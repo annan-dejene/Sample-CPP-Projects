@@ -11,6 +11,7 @@ void options()
     cout << "4. Exit" << endl;
     cout << "*******************" << endl
          << endl;
+    cout << "Option: ";
 }
 
 int main()
@@ -59,7 +60,15 @@ int main()
             }
             break;
         default:
-            break;
+            if (input == 4)
+            {
+                break;
+            }
+            else
+            {
+                cout << "Invalid Option!" << endl;
+                break;
+            }
         }
     }
 

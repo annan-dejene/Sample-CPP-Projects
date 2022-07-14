@@ -4,8 +4,7 @@ using namespace std;
 
 void options()
 {
-    cout << endl
-         << "*******MENU*******" << endl;
+    cout << "*******Choose an Option*******" << endl;
     cout << "1. Check Balance" << endl;
     cout << "2. Deposit" << endl;
     cout << "3. Withdraw" << endl;
@@ -32,6 +31,7 @@ int main()
 
         options();
         cin >> input;
+        system("cls");
 
         switch (input)
         {
